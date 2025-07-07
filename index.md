@@ -17,7 +17,7 @@ You should comment out all portions of your portfolio that you have not complete
   
 # Final Milestone
 
-**Don't forget to replace the t![Uploading WhatsApp Image 2025-07-07 at 1.59.25 PM.jpeg…]()
+**Don't forget to replace the t![Add Pic]()
 ext below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -48,7 +48,40 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IN1WV0kRXRE?si=jzAv8u1_5rz0-BP7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Building the Retro Console was very fun. I love games and after building this, I got something to do at my free time. Soldering the wires in the back was the biggest challenge. 
+Talk about the Milestone:
+
+
+
+# Started Project
+
+**Don't forget to replace the t![Uploading WhatsApp Image 2025-07-07 at 1.59.25 PM.jpeg…]()
+ext below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IN1WV0kRXRE?si=jzAv8u1_5rz0-BP7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Parts Given:
+- 1. USB Socket
+  2. Dot Matrix
+  3. Digital Tube
+  4. Capacitance
+  5. Keys
+  6. Buzzer
+  7. Power Switch
+  8. Battery Box
+  9. Wire
+  10. Hex Copper pillars
+  11. Key cap
+- Summary:
+  My starter project is a mini arcade system featuring classic games like Tetris, Snake, Car Racing, Space Invaders, and a Slot Machine. The system is controlled using seven buttons: up, down, left, right, start, pause/quit (yellow), and power/shoot/speed (yellow). In Tetris, I can move blocks side to side, speed up their fall with the down arrow, rotate with the yellow button, and pause with yellow. In Snake, I guide the snake in all directions to eat glowing dots, speed up with yellow, and pause with yellow. In Car Racing, I dodge incoming cars by steering left or right, speed up with yellow, and pause with yellow. In Space Invaders, I move side to side and shoot enemies above using the yellow button, with yellow for pause. Lastly, the Slot Machine lets me bet up to 9 credits for a shot at hitting “777,” with the yellow button used to exit the game.
+
+
+- How the Components work together:
+  For this project, I used two LED matrix displays, a 7-segment display, a buzzer, seven buttons, a capacitor, a battery holder with three AAA batteries, four transparent acrylic panels for the casing, an integrated circuit/microprocessor, and a custom PCB. The microprocessor is a compact but powerful component that processes input from the seven buttons and controls output to both the LED matrix screen and the 7-segment display.
+
+- Challenges Faced:
+  There were many challenges I faced building the Retro gaming console and the one thing that troubled me was attaching and solding the wires in the back. The instructions were not the best but I asked my instructor and it finally worked. 
+
+
 
 
 # Schematics 
