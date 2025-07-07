@@ -54,8 +54,6 @@ Talk about the Milestone:
 
 # Starter Project
 
-**Don't forget to replace the t![Uploading WhatsApp Image 2025-07-07 at 1.59.25 PM.jpeg…]()
-ext below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IN1WV0kRXRE?si=jzAv8u1_5rz0-BP7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
