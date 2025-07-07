@@ -52,7 +52,7 @@ Talk about the Milestone:
 
 
 
-# Started Project
+# Starter Project
 
 **Don't forget to replace the t![Uploading WhatsApp Image 2025-07-07 at 1.59.25 PM.jpeg…]()
 ext below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
