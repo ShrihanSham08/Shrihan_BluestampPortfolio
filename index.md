@@ -1,5 +1,5 @@
 # Voice Assistant AI
-Building the Retro Console was really fun. There were a lot of things I learnt from building the console and the main thing was I learnt how to Solder things. This was new for me and it was really fun. The most challenging thing in building the console was to solder the wires in the back. The wires were really hard to solder as they would not even stick. Overall building this project was really fun. 
+Description:
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -71,12 +71,14 @@ Parts Given:
   9. Wire
   10. Hex Copper pillars
   11. Key cap
-- Summary:
-  My starter project is a mini arcade system featuring classic games like Tetris, Snake, Car Racing, Space Invaders, and a Slot Machine. The system is controlled using seven buttons: up, down, left, right, start, pause/quit (yellow), and power/shoot/speed (yellow). In Tetris, I can move blocks side to side, speed up their fall with the down arrow, rotate with the yellow button, and pause with yellow. In Snake, I guide the snake in all directions to eat glowing dots, speed up with yellow, and pause with yellow. In Car Racing, I dodge incoming cars by steering left or right, speed up with yellow, and pause with yellow. In Space Invaders, I move side to side and shoot enemies above using the yellow button, with yellow for pause. Lastly, the Slot Machine lets me bet up to 9 credits for a shot at hitting “777,” with the yellow button used to exit the game.
+ 
+
+ Summary:
+- My starter project is a mini arcade system featuring classic games like Tetris, Snake, Car Racing, Space Invaders, and a Slot Machine. The system is controlled using seven buttons: up, down, left, right, start, pause/quit (yellow), and power/shoot/speed (yellow). In Tetris, I can move blocks side to side, speed up their fall with the down arrow, rotate with the yellow button, and pause with yellow. In Snake, I guide the snake in all directions to eat glowing dots, speed up with yellow, and pause with yellow. In Car Racing, I dodge incoming cars by steering left or right, speed up with yellow, and pause with yellow. In Space Invaders, I move side to side and shoot enemies above using the yellow button, with yellow for pause. Lastly, the Slot Machine lets me bet up to 9 credits for a shot at hitting “777,” with the yellow button used to exit the game.
 
 
-- How the Components work together:
-  For this project, I used two LED matrix displays, a 7-segment display, a buzzer, seven buttons, a capacitor, a battery holder with three AAA batteries, four transparent acrylic panels for the casing, an integrated circuit/microprocessor, and a custom PCB. The microprocessor is a compact but powerful component that processes input from the seven buttons and controls output to both the LED matrix screen and the 7-segment display.
+How the Components work together:
+- For this project, I used two LED matrix displays, a 7-segment display, a buzzer, seven buttons, a capacitor, a battery holder with three AAA batteries, four transparent acrylic panels for the casing, an integrated circuit/microprocessor, and a custom PCB. The microprocessor is a compact but powerful component that processes input from the seven buttons and controls output to both the LED matrix screen and the 7-segment display.
 
 - Challenges Faced:
   There were many challenges I faced building the Retro gaming console and the one thing that troubled me was attaching and solding the wires in the back. The instructions were not the best but I asked my instructor and it finally worked. 
