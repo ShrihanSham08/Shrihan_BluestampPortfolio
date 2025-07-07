@@ -1,5 +1,5 @@
-# Project Name Here
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+# Voice Assistant AI
+Building the Retro Console was really fun. There were a lot of things I learnt from building the console and the main thing was I learnt how to Solder things. This was new for me and it was really fun. The most challenging thing in building the console was to solder the wires in the back. The wires were really hard to solder as they would not even stick. Overall building this project was really fun. 
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -9,15 +9,16 @@ You should comment out all portions of your portfolio that you have not complete
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
-
+| Shrihan.S | Milpitas High School | Electrical Engineering | Incoming Senior
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+![Headstone Image](![WhatsApp Image 2025-07-07 at 1 59 25 PM](https://github.com/user-attachments/assets/70ba0c4d-be12-4606-a9d5-78b1f9cbf8cc)
+)
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+**Don't forget to replace the t![Uploading WhatsApp Image 2025-07-07 at 1.59.25 PM.jpeg…]()
+ext below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
