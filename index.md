@@ -101,7 +101,7 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 }
-```
+
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
@@ -109,9 +109,20 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Main PCB	 | 	Houses all circuitry and the microcontroller; foundation of the console	 | $4.00| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1 Link </a> |
+| STC15 Microcontroller |	The brain of the console—runs the game logic | $1.50-$2.00 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+| 16×8 LED Matrix Display |Visual display for gameplay | $2.50-$4.00 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+| Tactile Buttons (6) |User inputs (game controls) | $1.00 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+| USB Type-C Port |Power input port | $1.50 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+| Resistors |Limit current to LEDs and other components | $0.10 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+| Capacitors |Stabilize power supply, filter noise	 | $0.20| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+|Diodes |Ensure current flows correctly; protect from reverse voltage	 | $0.20| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+|Crystal Oscillator	 |Provides clock signal for the microcontroller		 | $0.50| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+|Pin Headers	 |Interfaces between PCB and external modules		 | $0.30| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+|Acrylic Case	 | Protects the board and makes the console portable		 | $3.00-$5.00| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+|Wires / Connectors	 |For internal connections, power, button input	 | $0.50| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+
+
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
