@@ -79,7 +79,24 @@ How the Components work together:
 - For this project, I used two LED matrix displays, a 7-segment display, a buzzer, seven buttons, a capacitor, a battery holder with three AAA batteries, four transparent acrylic panels for the casing, an integrated circuit/microprocessor, and a custom PCB. The microprocessor is a compact but powerful component that processes input from the seven buttons and controls output to both the LED matrix screen and the 7-segment display.
 
 - Challenges Faced:
-  There were many challenges I faced building the Retro gaming console and the one thing that troubled me was attaching and solding the wires in the back. The instructions were not the best but I asked my instructor and it finally worked. 
+  There were many challenges I faced building the Retro gaming console and the one thing that troubled me was attaching and solding the wires in the back. The instructions were not the best but I asked my instructor and it finally worked.
+
+
+| **Part** | **Note** | **Price** | **Link** |
+|:--:|:--:|:--:|:--:|
+| Main PCB	 | 	Houses all circuitry and the microcontroller; foundation of the console	 | $4.00| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1 Link </a> |
+| STC15 Microcontroller |	The brain of the console—runs the game logic | $1.50-$2.00 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+| 16×8 LED Matrix Display |Visual display for gameplay | $2.50-$4.00 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+| Tactile Buttons (6) |User inputs (game controls) | $1.00 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+| USB Type-C Port |Power input port | $1.50 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+| Resistors |Limit current to LEDs and other components | $0.10 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+| Capacitors |Stabilize power supply, filter noise	 | $0.20| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+|Diodes |Ensure current flows correctly; protect from reverse voltage	 | $0.20| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+|Crystal Oscillator	 |Provides clock signal for the microcontroller		 | $0.50| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+|Pin Headers	 |Interfaces between PCB and external modules		 | $0.30| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+|Acrylic Case	 | Protects the board and makes the console portable		 | $3.00-$5.00| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+|Wires / Connectors	 |For internal connections, power, button input	 | $0.50| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+
 
 
 
@@ -89,6 +106,9 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+
+
+****
 
 ```c++
 void setup() {
@@ -107,20 +127,7 @@ void loop() {
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
-| **Part** | **Note** | **Price** | **Link** |
-|:--:|:--:|:--:|:--:|
-| Main PCB	 | 	Houses all circuitry and the microcontroller; foundation of the console	 | $4.00| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1 Link </a> |
-| STC15 Microcontroller |	The brain of the console—runs the game logic | $1.50-$2.00 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
-| 16×8 LED Matrix Display |Visual display for gameplay | $2.50-$4.00 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
-| Tactile Buttons (6) |User inputs (game controls) | $1.00 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
-| USB Type-C Port |Power input port | $1.50 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
-| Resistors |Limit current to LEDs and other components | $0.10 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
-| Capacitors |Stabilize power supply, filter noise	 | $0.20| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
-|Diodes |Ensure current flows correctly; protect from reverse voltage	 | $0.20| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
-|Crystal Oscillator	 |Provides clock signal for the microcontroller		 | $0.50| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
-|Pin Headers	 |Interfaces between PCB and external modules		 | $0.30| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
-|Acrylic Case	 | Protects the board and makes the console portable		 | $3.00-$5.00| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
-|Wires / Connectors	 |For internal connections, power, button input	 | $0.50| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
+
 
 
 
