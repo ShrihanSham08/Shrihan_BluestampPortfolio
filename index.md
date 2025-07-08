@@ -84,7 +84,7 @@ How the Components work together:
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Main PCB	 | 	Houses all circuitry and the microcontroller; foundation of the console	 | $4.00| <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1 Link </a> |
+| Main PCB	 | 	Houses all circuitry and the microcontroller; foundation of the console	 | $4.00|  <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a>|
 | STC15 Microcontroller |	The brain of the console—runs the game logic | $1.50-$2.00 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
 | 16×8 LED Matrix Display |Visual display for gameplay | $2.50-$4.00 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
 | Tactile Buttons (6) |User inputs (game controls) | $1.00 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
