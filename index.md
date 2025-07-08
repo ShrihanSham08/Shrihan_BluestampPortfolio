@@ -10,7 +10,6 @@ You should comment out all portions of your portfolio that you have not complete
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Shrihan.S | Milpitas High School | Electrical Engineering | Incoming Senior
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](![WhatsApp Image 2025-07-07 at 1 59 25 PM](https://github.com/user-attachments/assets/70ba0c4d-be12-4606-a9d5-78b1f9cbf8cc)
 )
@@ -72,14 +71,14 @@ Parts Given:
  
 
  Summary:
-- My starter project is a mini arcade system featuring classic games like Tetris, Snake, Car Racing, Space Invaders, and a Slot Machine. The system is controlled using seven buttons: up, down, left, right, start, pause/quit (yellow), and power/shoot/speed (yellow). In Tetris, I can move blocks side to side, speed up their fall with the down arrow, rotate with the yellow button, and pause with yellow. In Snake, I guide the snake in all directions to eat glowing dots, speed up with yellow, and pause with yellow. In Car Racing, I dodge incoming cars by steering left or right, speed up with yellow, and pause with yellow. In Space Invaders, I move side to side and shoot enemies above using the yellow button, with yellow for pause. Lastly, the Slot Machine lets me bet up to 9 credits for a shot at hitting “777,” with the yellow button used to exit the game.
+- My starter project is a mini arcade system featuring classic games like Tetris, Snake, Car Racing, Space Invaders, and a Slot Machine. The system is controlled using seven buttons: up, down, left, right, start, pause/quit, and power/shoot/speed. Building the Retro Console was very fun. I learned a lot of new things like soldering. I had never done soldering before so building the retro console improved my soldering skills. I had to be very careful with the amount of solder I used, cause if I used too  much, my console would not work. 
 
 
 How the Components work together:
-- For this project, I used two LED matrix displays, a 7-segment display, a buzzer, seven buttons, a capacitor, a battery holder with three AAA batteries, four transparent acrylic panels for the casing, an integrated circuit/microprocessor, and a custom PCB. The microprocessor is a compact but powerful component that processes input from the seven buttons and controls output to both the LED matrix screen and the 7-segment display.
+- For this project, I used two LED  displays, a 7-segment display, a buzzer, seven buttons, a capacitor, a battery holder with three AAA batteries, four transparent acrylic panels for the casing, an integrated circuit/microprocessor, and a custom PCB. The microprocessor is a compact but powerful component that processes input from the seven buttons and controls output to both the LED  screen and the 7-segment display.
 
 - Challenges Faced:
-  There were many challenges I faced building the Retro gaming console and the one thing that troubled me was attaching and solding the wires in the back. The instructions were not the best but I asked my instructor and it finally worked.
+  There were many challenges I faced building the Retro gaming console and the one thing that troubled me was attaching and soldering the wires in the back. The instructions were not the best but I asked my instructor and it finally worked.
 
 
 | **Part** | **Note** | **Price** | **Link** |
