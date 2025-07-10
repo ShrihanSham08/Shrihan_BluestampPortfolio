@@ -69,14 +69,14 @@ Parts Given:
   11. Key cap
  
 
-## Summary:
+### Summary:
 - My starter project is a mini arcade system featuring classic games like Tetris, Snake, Car Racing, Space Invaders, and a Slot Machine. The system is controlled using seven buttons: up, down, left, right, start, pause/quit, and power/shoot/speed. Building the Retro Console was very fun. I learned a lot of new things like soldering. I had never done soldering before so building the retro console improved my soldering skills. I had to be very careful with the amount of solder I used, cause if I used too  much, my console would not work. 
 
 
-## How the Components work together:
+### How the Components work together:
 - For this project, I used two LED  displays, a 7-segment display, a buzzer, seven buttons, a capacitor, a battery holder with three AAA batteries, four transparent acrylic panels for the casing, an integrated circuit/microprocessor, and a custom PCB. The microprocessor is a compact but powerful component that processes input from the seven buttons and controls output to both the LED  screen and the 7-segment display.
 
-## Challenges Faced:
+### Challenges Faced:
   There were many challenges I faced building the Retro gaming console and the one thing that troubled me was attaching and soldering the wires in the back. The instructions were not the best but I asked my instructor and it finally worked.
 
 
