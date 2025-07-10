@@ -43,9 +43,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/03rZ_WAQo5A?si=gE1m2of4v5NG_TXl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=03rZ_WAQo5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For my milestone, I had to set up the Raspberry Pi software and configure all the necessary code on my computer. The process was both exciting and challenging. One of the biggest obstacles I faced was when the Pi froze after I uploaded a piece of code, forcing me to restart the entire system from scratch. It was frustrating in the moment, but it also taught me a lot about troubleshooting, and how sensitive these systems can be when dealing with real-time code changes. 
 
