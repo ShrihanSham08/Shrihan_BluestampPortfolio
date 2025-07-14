@@ -93,7 +93,8 @@ Add a picture for now.
 # Code
 
 
-    from openai import OpenAI
+    from openai 
+    import OpenAI
 
     client = OpenAI(
     api_key = "SECRETKEY"
@@ -118,7 +119,7 @@ Add a picture for now.
 
     chat = client.chat.completions.create(
         messages=messages,
-        model="gpt-3.5-turbo"
+        model="gpt-4o mini realtime"
     )
 
     reply = chat.choices[0].message
