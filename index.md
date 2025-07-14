@@ -6,7 +6,7 @@ Description:
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Shrihan.S | Milpitas High School | Electrical Engineering | Incoming Senior
+| Shrihan.S | Milpitas High School | Electrical Engineering | Rising  Senior
 
 ![ShrihanS](https://github.com/user-attachments/assets/a01f44c9-3ed2-4998-9564-954f9755140c)
 
@@ -40,10 +40,13 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/03rZ_WAQo5A?si=KWCqZNXD3hb3f2-i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For my milestone, I had to set up the Raspberry Pi software and configure all the necessary code on my computer. The process was both exciting and challenging. One of the biggest obstacles I faced was when the Pi froze after I uploaded a piece of code, forcing me to restart the entire system from scratch. It was frustrating in the moment, but it also taught me a lot about troubleshooting, and how sensitive these systems can be when dealing with real-time code changes. 
+# Summary 
 
+For my milestone, I focused on setting up the Raspberry Pi software and configuring all the necessary code on my computer to enable smooth communication between my development environment and the Pi. This part of the process involved installing the Raspberry Pi OS, connecting various peripherals, and preparing the system for Python-based development. I took time to carefully go through the setup guides, verified my connections, and ensured my Pi was properly powered and networked. Once the base system was running, I moved on to writing and uploading code that would allow for real-time interaction, particularly using OpenAI and audio input/output support.
 
+# Challenges
 
+However, the process wasn't without its challenges. One of the most difficult moments came when the Raspberry Pi suddenly froze after I uploaded a new script. At first, I thought it was a minor glitch, but it turned out that the code had triggered a crash severe enough to require a full system reset. I had to re-flash the SD card, reinstall the OS, and reconfigure all of my previous settings—a process that costed me a lot of time.  
 
 # Starter Project
 
@@ -98,22 +101,42 @@ Parts Given:
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
-
 
 ****
 
-```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
+from openai import OpenAI
 
-void loop() {
-  // put your main code here, to run repeatedly:
+client = OpenAI(
+    api_key = "SECRETKEY"
+)
 
-}
+messages = [
+    {
+        "role": "system",
+        "content": "You are a helpful assistant"
+    }
+]
+
+while True:
+    message = input("You: ")
+
+  messages.append(
+        {
+            "role": "user",
+            "content": message
+        },
+    )
+
+  chat = client.chat.completions.create(
+        messages=messages,
+        model="gpt-3.5-turbo"
+    )
+
+  reply = chat.choices[0].message
+
+  print("Assistant: ", reply.content)
+    
+  messages.append(reply)
 
 
 # Bill of Materials
@@ -130,4 +153,4 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+
