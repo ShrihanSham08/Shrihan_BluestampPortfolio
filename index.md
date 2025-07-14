@@ -52,18 +52,7 @@ For my milestone, I focused on setting up the Raspberry Pi software and configur
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IN1WV0kRXRE?si=jzAv8u1_5rz0-BP7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Parts Given:
-- 1. USB Socket
-  2. Dot Matrix
-  3. Digital Tube
-  4. Capacitance
-  5. Keys
-  6. Buzzer
-  7. Power Switch
-  8. Battery Box
-  9. Wire
-  10. Hex Copper pillars
-  11. Key cap
+
  
 
 ## Summary:
@@ -74,10 +63,10 @@ Parts Given:
 - For this project, I used two LED  displays, a 7-segment display, a buzzer, seven buttons, a capacitor, a battery holder with three AAA batteries, four transparent acrylic panels for the casing, an integrated circuit/microprocessor, and a custom PCB. The microprocessor is a compact but powerful component that processes input from the seven buttons and controls output to both the LED  screen and the 7-segment display.
 
 ## Challenges Faced:
-  There were many challenges I faced building the Retro gaming console and the one thing that troubled me was attaching and soldering the wires in the back. The instructions were not the best but I asked my instructor and it finally worked.
+  While building the retro gaming console, but the most difficult part for me was attaching and soldering the wires on the back of the board. The instructions provided were not very clear, especially when it came to the wiring diagram and the order in which the connections needed to be made. I struggled to understand where each wire was supposed to go, and at one point, I wasn't sure if I was damaging the board or just missing a step. The soldering itself was also tricky because the connections were small and required a steady hand, which made it even harder for me.
 
 
-| **Part** | **Note** | **Price** | **Link** |
+| **Parts** | **What these Parts are used for** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Main PCB	 | 	Houses all circuitry and the microcontroller; foundation of the console	 | $4.00|  <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a>|
 | STC15 Microcontroller |	The brain of the console—runs the game logic | $1.50-$2.00 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
