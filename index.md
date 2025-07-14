@@ -102,41 +102,41 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 
 # Code
 
-****
+'''Python
 
-from openai import OpenAI
+    from openai import OpenAI
 
-client = OpenAI(
+    client = OpenAI(
     api_key = "SECRETKEY"
-)
+    )
 
-messages = [
+    messages = [
     {
         "role": "system",
         "content": "You are a helpful assistant"
     }
-]
+    ]
 
-while True:
+    while True:
     message = input("You: ")
 
-  messages.append(
+    messages.append(
         {
             "role": "user",
             "content": message
         },
     )
 
-  chat = client.chat.completions.create(
+    chat = client.chat.completions.create(
         messages=messages,
         model="gpt-3.5-turbo"
     )
 
-  reply = chat.choices[0].message
+    reply = chat.choices[0].message
 
-  print("Assistant: ", reply.content)
+    print("Assistant: ", reply.content)
     
-  messages.append(reply)
+    messages.append(reply)
 
 
 # Bill of Materials
