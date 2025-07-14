@@ -56,14 +56,17 @@ For my milestone, I focused on setting up the Raspberry Pi software and configur
  
 
 ## Summary:
-- My starter project is a mini arcade system featuring classic games like Tetris, Snake, Car Racing, Space Invaders, and a Slot Machine. The system is controlled using seven buttons: up, down, left, right, start, pause/quit, and power/shoot/speed. Building the Retro Console was very fun. I learned a lot of new things like soldering. I had never done soldering before so building the retro console improved my soldering skills. I had to be very careful with the amount of solder I used, cause if I used too  much, my console would not work. 
+My starter project is a mini arcade system featuring classic games like Tetris, Snake, Car Racing, Space Invaders, and a Slot Machine. The system is controlled using seven buttons: up, down, left, right, start, pause/quit, and power/shoot/speed. Building the Retro Console was very fun. I learned a lot of new things like soldering. I had never done soldering before so building the retro console improved my soldering skills. I had to be very careful with the amount of solder I used, cause if I used too  much, my console would not work. 
 
 
 ## How the Components work together:
-- For this project, I used two LED  displays, a 7-segment display, a buzzer, seven buttons, a capacitor, a battery holder with three AAA batteries, four transparent acrylic panels for the casing, an integrated circuit/microprocessor, and a custom PCB. The microprocessor is a compact but powerful component that processes input from the seven buttons and controls output to both the LED  screen and the 7-segment display.
+ For this project, I used two LED  displays, a 7-segment display, a buzzer, seven buttons, a capacitor, a battery holder with three AAA batteries, four transparent acrylic panels for the casing, an integrated circuit/microprocessor, and a custom PCB. The microprocessor is a compact but powerful component that processes input from the seven buttons and controls output to both the LED  screen and the 7-segment display.
 
 ## Challenges Faced:
   While building the retro gaming console, but the most difficult part for me was attaching and soldering the wires on the back of the board. The instructions provided were not very clear, especially when it came to the wiring diagram and the order in which the connections needed to be made. I struggled to understand where each wire was supposed to go, and at one point, I wasn't sure if I was damaging the board or just missing a step. The soldering itself was also tricky because the connections were small and required a steady hand, which made it even harder for me.
+
+
+
 
 
 | **Parts** | **What these Parts are used for** | **Price** | **Link** |
@@ -86,11 +89,10 @@ For my milestone, I focused on setting up the Raspberry Pi software and configur
 
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+Add a picture for now. 
 
 # Code
 
-'''Python
 
     from openai import OpenAI
 
@@ -128,17 +130,10 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
-
-
+Add the prices of all the things for the intensive project.
 
 
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
+Resources like what websites I usedm etc. 
 
