@@ -20,8 +20,17 @@ Add the video, challenges and summary of the milestone.
 
 # Second Milestone
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7tOhThaIJ6U?si=lUVrH5sd9osV27k6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Add the video, challenges and summary of the milestone. 
+
+## Summary 
+
+My second milestone was focused on installing the OpenAI software onto my Raspberry Pi to begin building a functional AI voice assistant. This task required more than just basic installation — I first had to research and identify a suitable ChatGPT model that could handle both audio input and output while also supporting text-based interaction. Since I was working on limited hardware, I needed a model that was lightweight enough to run efficiently on the Raspberry Pi, but still powerful enough to process and generate meaningful responses. I eventually chose to use OpenAI’s GPT-4o mini realtime via the API, which allowed me to send text queries and receive smart, conversational replies from the cloud.
+
+## Challenges Faced 
+
+One of the most challenging parts of this milestone was finding the right AI model that would work well with the Raspberry Pi. Since the Pi has limited processing power and memory compared to a full computer, I knew I couldn’t run large language models like GPT-4.1 or the other ones directly on the device. I had to find a solution that would allow the Raspberry Pi to interact with an AI model through the cloud while still supporting both voice input/output and text-based communication. This led me to research OpenAI's available models, especially GPT-4o mini realtime, which offered a good balance between performance and speed, and could be accessed via API rather than being installed locally.
+
 
 
 # First Milestone
