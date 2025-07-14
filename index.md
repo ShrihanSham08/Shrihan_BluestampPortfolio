@@ -1,5 +1,4 @@
 # Voice Assistant AI
-Description:
 
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
@@ -40,13 +39,13 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/03rZ_WAQo5A?si=KWCqZNXD3hb3f2-i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Summary 
+## Summary 
 
 For my milestone, I focused on setting up the Raspberry Pi software and configuring all the necessary code on my computer to enable smooth communication between my development environment and the Pi. This part of the process involved installing the Raspberry Pi OS, connecting various peripherals, and preparing the system for Python-based development. I took time to carefully go through the setup guides, verified my connections, and ensured my Pi was properly powered and networked. Once the base system was running, I moved on to writing and uploading code that would allow for real-time interaction, particularly using OpenAI and audio input/output support.
 
-# Challenges
+## Challenges
 
-However, the process wasn't without its challenges. One of the most difficult moments came when the Raspberry Pi suddenly froze after I uploaded a new script. At first, I thought it was a minor glitch, but it turned out that the code had triggered a crash severe enough to require a full system reset. I had to re-flash the SD card, reinstall the OS, and reconfigure all of my previous settings—a process that costed me a lot of time.  
+ One of the most difficult moments came when the Raspberry Pi suddenly froze after I uploaded a new script. At first, I thought it was a minor glitch, but it turned out that the code had triggered a crash severe enough to require a full system reset. I had to re-flash the SD card, reinstall the OS, and reconfigure all of my previous settings—a process that costed me a lot of time.  
 
 # Starter Project
 
@@ -67,14 +66,14 @@ Parts Given:
   11. Key cap
  
 
-# Summary:
+## Summary:
 - My starter project is a mini arcade system featuring classic games like Tetris, Snake, Car Racing, Space Invaders, and a Slot Machine. The system is controlled using seven buttons: up, down, left, right, start, pause/quit, and power/shoot/speed. Building the Retro Console was very fun. I learned a lot of new things like soldering. I had never done soldering before so building the retro console improved my soldering skills. I had to be very careful with the amount of solder I used, cause if I used too  much, my console would not work. 
 
 
-# How the Components work together:
+## How the Components work together:
 - For this project, I used two LED  displays, a 7-segment display, a buzzer, seven buttons, a capacitor, a battery holder with three AAA batteries, four transparent acrylic panels for the casing, an integrated circuit/microprocessor, and a custom PCB. The microprocessor is a compact but powerful component that processes input from the seven buttons and controls output to both the LED  screen and the 7-segment display.
 
-# Challenges Faced:
+## Challenges Faced:
   There were many challenges I faced building the Retro gaming console and the one thing that troubled me was attaching and soldering the wires in the back. The instructions were not the best but I asked my instructor and it finally worked.
 
 
