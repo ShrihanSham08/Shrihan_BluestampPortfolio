@@ -25,7 +25,7 @@ Add the video, challenges and summary of the milestone.
 
 ## Summary 
 
-My second milestone was focused on installing the OpenAI software onto my Raspberry Pi to begin building a functional AI voice assistant. This task required more than just basic installation — I first had to research and identify a suitable ChatGPT model that could handle both audio input and output while also supporting text-based interaction. Since I was working on limited hardware, I needed a model that was lightweight enough to run efficiently on the Raspberry Pi, but still powerful enough to process and generate meaningful responses. I eventually chose to use OpenAI’s GPT-4o mini realtime via the API, which allowed me to send text queries and receive smart, conversational replies from the cloud.
+My second milestone was focused on installing the OpenAI software onto my Raspberry Pi to begin building a functional AI voice assistant. This task required more than just basic installation — I first had to research and identify a suitable ChatGPT model that could handle both audio input and output while also supporting text-based interaction. Since I was working on limited hardware, I needed a model that was lightweight enough to run efficiently on the Raspberry Pi, but still powerful enough to process and generate meaningful responses. I eventually chose to use OpenAI’s GPT-4o mini realtime via the API, which allowed me to send text queries and receive smart, conversational replies from the cloud. 
 
 ## Challenges Faced 
 
@@ -130,7 +130,9 @@ Add a picture for now.
 
 
 # Bill of Materials
-Add the prices of all the things for the intensive project.
+Raspberry Pi 4 Model B 2019 Quad Core 64 Bit WiFi Bluetooth (4GB) - $63.99
+USB Mini Speaker Computer Speaker Powered Stereo Multimedia Speaker for Notebook Laptop PC(Black) - $13.99
+M170 Wireless Mouse for PC, Mac, Laptop, 2.4 GHz with USB Mini Receiver, Optical Tracking, 12-Months Battery Life, Ambidextrous - 12.99
 
 
 
