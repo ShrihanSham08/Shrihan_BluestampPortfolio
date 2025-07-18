@@ -73,7 +73,7 @@ My starter project is a mini arcade system featuring classic games like Tetris, 
 
 
 
-| **Parts** | **What these Parts are used for** | **Price** | **Link** |
+| **Started Project Parts** | **What these Parts are used for** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Main PCB	 | 	Houses all circuitry and the microcontroller; foundation of the console	 | $4.00|  <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a>|
 | STC15 Microcontroller |	The brain of the console—runs the game logic | $1.50-$2.00 | <a href="https://www.amazon.com/Electronic-Console-Soldering-Practice-Educational/dp/B0DSSZ95K5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1L3U1U7SXO8E0&gQT=1"> Link </a> |
@@ -97,49 +97,84 @@ Add a picture for now.
 
 # Code
 
+import speech_recognition as sr
+import pyttsx3
+import openai
 
-    from openai 
-    import OpenAI
 
-    client = OpenAI(
-    api_key = "SECRETKEY"
+
+
+openai.api_key = "YOUR_OWN_API_KEY"
+
+recognizer = sr.Recognizer()
+tts = pyttsx3.init()
+
+WAKE_WORD = "hey jarvis"
+
+def speak(text):
+    print(f"GPT: {text}")
+    tts.say(text)
+    tts.runAndWait()
+
+def listen_for_wake_word():
+    with sr.Microphone() as source:
+        print("🎧 Waiting for wake word...")
+        recognizer.adjust_for_ambient_noise(source)
+        audio = recognizer.listen(source)
+        try:
+            phrase = recognizer.recognize_google(audio).lower()
+            print(f"You said: {phrase}")
+            return WAKE_WORD in phrase
+        except sr.UnknownValueError:
+            return False
+        except sr.RequestError:
+            print("API unavailable")
+            return False
+
+def listen_for_command():
+    with sr.Microphone() as source:
+        print("🎙️ Listening for your command...")
+        recognizer.adjust_for_ambient_noise(source)
+        audio = recognizer.listen(source)
+        try:
+            return recognizer.recognize_google(audio)
+        except sr.UnknownValueError:
+            return "Sorry, I didn't catch that."
+        except sr.RequestError:
+            return "Speech service is unavailable."
+
+def chat_with_gpt(prompt):
+    response = openai.chat.completions.create(
+        model="gpt-4o", 
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": prompt}
+        ]
     )
+    return response.choices[0].message.content
 
-    messages = [
-    {
-        "role": "system",
-        "content": "You are a helpful assistant"
-    }
-    ]
 
-    while True:
-    message = input("You: ")
-
-    messages.append(
-        {
-            "role": "user",
-            "content": message
-        },
-    )
-
-    chat = client.chat.completions.create(
-        messages=messages,
-        model="gpt-4o mini realtime"
-    )
-
-    reply = chat.choices[0].message
-
-    print("Assistant: ", reply.content)
-    
-    messages.append(reply)
+while True:
+    if listen_for_wake_word():
+        speak("Yes?")
+        command = listen_for_command()
+        print(f"You: {command}")
+        # if command.lower() in ["stop", "exit", "quit"]:
+        #     speak("Goodbye.")
+        #     break
+        gpt_response = chat_with_gpt(command)
+        print("after response")
+        speak(gpt_response)    
 
 
 # Bill of Materials
-Raspberry Pi 4 Model B 2019 Quad Core 64 Bit WiFi Bluetooth (4GB) - $63.99
-USB Mini Speaker Computer Speaker Powered Stereo Multimedia Speaker for Notebook Laptop PC(Black) - $13.99
-M170 Wireless Mouse for PC, Mac, Laptop, 2.4 GHz with USB Mini Receiver, Optical Tracking, 12-Months Battery Life, Ambidextrous - 12.99
 
-
+| **Intensive Project Parts** | **What these Parts are used for** | **Price** | **Link** |
+|:--:|:--:|:--:|:--:|
+| CanaKit Raspberry Pi 4 4GB Starter PRO Kit - 4GB RAM		 | Raspberry Pi, where you code the project	 | $139.99|  <a href="https://www.amazon.com/CanaKit-Raspberry-4GB-Starter-Kit/dp/B07V5JTMV9/ref=asc_df_B07V5JTMV9/?tag=hyprod-20&linkCode=df0&hvadid=693338329849&hvpos=&hvnetw=g&hvrand=18331739921598768352&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061320&hvtargid=pla-1004184582672&mcid=9824999e31ae349e88b65c860ad01ca1&gad_source=1&th=1"> Link </a>|
+| Amazon Basics USB Wired Computer Keyboard (QWERTY) and Mouse Bundle Pack |	Needed to control the mouse and type on the Raspberry Pi | $13.95 | <a href="https://www.amazon.com/AmazonBasics-Wired-Computer-Keyboard-Bundle/dp/B00B7GV802/ref=sr_1_1_ffob_sspa?crid=1VBS7R2GLGITW&dib=eyJ2IjoiMSJ9.CXiy0MSQ7oS5ab2-gtRxP59PzmhFj4Gk2geQcL2k-xsJKARBOvaecQvXxZzJdH7tv3zFyppS3afrjm0zMBbvnb5AvHreDWEmQqdrPvseDQ1K7amLQCOlYBD6Eb2rPel58kmonSddG5kIswe65AMKCBzitO2XKeaRWRund6dOj3qZpwDH2wYgaVgNz_Jnu51IjFkyvMALxU5CNdl9lcR6itK2EcpDO9xCTGBpmbW3B7gSTsSrZuqUZ4bWLBAeu5ETHrTXijmi6nXHlvMUJy988IjnYbbVzTFENG_srxqfPmQ.XmzDvKwWZpk7mSooFlq-iO8sYBf7a4lgpI_7fTKB2f4&dib_tag=se&keywords=usb%2Bmouse%2Band%2Bkeyboard&qid=1718294893&s=electronics&sprefix=usb%2Bmouse%2Band%2Bk%2Celectronics%2C140&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
+| Mini Microphone	 | For the voice assistant to be able to hear you.	| $9.00 | <a href="https://www.amazon.com/KISEER-Microphone-Desktop-Recording-YouTube/dp/B071WH7FC6/ref=sr_1_49?dib=eyJ2IjoiMSJ9._duKGXX14Ei2lsMzDs9t2vyk8gfuyLieEl4NkKK46-uvCV_QCgGwsI3t_oorCwJJQM-bZ6BkIq7UbTLXTsxwSClw8156bRA2CaKjuzEq7M1YerNABcZys98j6JJvMbaPnIqL1-Kjn4PQz970f-FJAwTRd1WWX_pWf269K76tmhSjyFUwhFmcKzo60F4uYJaDvgPcqOsuuDD0QvpBZLIbaWLsttrBeutpVBzXpHHjJDFSmp20m6g1OK7spsV5W2Rm8DnRCtCxUI4E4xL3smQUgPSkAKL3IcI2pIznKla3348.t-Dl5tDpwxiAD9QqMbquG7WwwBjglLbtCvHYrOyOSb0&dib_tag=se&hvadid=557253842145&hvdev=c&hvlocphy=9032183&hvnetw=g&hvqmt=e&hvrand=2182861228486574729&hvtargid=kwd-355566415824&hydadcr=15453_13495278&keywords=mini+microphone+amazon&qid=1718321793&sr=8-49"> Link </a> |
+| USB Mini Speaker	 |For the voice assistant be able to speak to you.	 | $12.99 | <a href="https://www.amazon.com/HONKYOB-Speaker-Computer-Multimedia-Notebook/dp/B075M7FHM1/ref=sr_1_2_sspa?crid=FR7PI8IPJB56&dib=eyJ2IjoiMSJ9.3NQlfBzyo_1KnxlkdUQcTTLGXSh49VhdM4wLdyEtkTvuiQ9KQ8zsv5qVSEnWGFYDSNS-48pUlbZzJ1DapVApIh2lnxaEUECErGLnquRElXL-64yjtEKoMriKRRuEae0qkVKVEmLGgkPvbbpU9RB3XabVru6LzeRfXrcllOBmobmvyxHsVFBVogPaC0Fd_uyCn5bV-CWvwVaaJUL4ADBjyLyiqReq6TEdq7GPXfLOiME.AeaC7Nyowuex2bsSTYI5Z08X7TqiLE9eqBZYI3ws3sk&dib_tag=se&keywords=mini%2Busb%2Bspeaker&qid=1718321989&sprefix=mini%2Busb%2Bspeaker%2Caps%2C144&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
 
 # Other Resources/Examples
 Resources like what websites I usedm etc. 
