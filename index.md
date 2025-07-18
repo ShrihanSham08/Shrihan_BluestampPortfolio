@@ -97,26 +97,26 @@ Add a picture for now.
 
 # Code
 
-import speech_recognition as sr
-import pyttsx3
-import openai
+    import speech_recognition as sr
+    import pyttsx3
+    import openai
 
 
 
 
-openai.api_key = "YOUR_OWN_API_KEY"
+    openai.api_key = "YOUR_OWN_API_KEY"
 
-recognizer = sr.Recognizer()
-tts = pyttsx3.init()
+    recognizer = sr.Recognizer()
+    tts = pyttsx3.init()
+ 
+    WAKE_WORD = "hey jarvis"
 
-WAKE_WORD = "hey jarvis"
-
-def speak(text):
-    print(f"GPT: {text}")
+    def speak(text):
+     print(f"GPT: {text}")
     tts.say(text)
     tts.runAndWait()
 
-def listen_for_wake_word():
+    def listen_for_wake_word():
     with sr.Microphone() as source:
         print("🎧 Waiting for wake word...")
         recognizer.adjust_for_ambient_noise(source)
@@ -131,7 +131,7 @@ def listen_for_wake_word():
             print("API unavailable")
             return False
 
-def listen_for_command():
+    def listen_for_command():
     with sr.Microphone() as source:
         print("🎙️ Listening for your command...")
         recognizer.adjust_for_ambient_noise(source)
@@ -143,7 +143,7 @@ def listen_for_command():
         except sr.RequestError:
             return "Speech service is unavailable."
 
-def chat_with_gpt(prompt):
+    def chat_with_gpt(prompt):
     response = openai.chat.completions.create(
         model="gpt-4o", 
         messages=[
@@ -154,7 +154,7 @@ def chat_with_gpt(prompt):
     return response.choices[0].message.content
 
 
-while True:
+    while True:
     if listen_for_wake_word():
         speak("Yes?")
         command = listen_for_command()
