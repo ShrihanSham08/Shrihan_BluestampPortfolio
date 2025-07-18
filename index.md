@@ -12,10 +12,15 @@
 
 # Final Milestone
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c0KTvO1GWoM?si=LVuXH_n2H2aaIuBm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Summary 
 
-Add the video, challenges and summary of the milestone.
+My third and final milestone was completing the code for my custom OpenAI model. With this, I can now have real-time conversations with it—asking questions, giving commands, and getting spoken responses. The model is voice-activated and only responds after hearing the wake phrase, “Hey Jarvis,” to which it replies with a simple “Yes.” From there, I can issue any command I need. One limitation, however, is that the model’s knowledge was last updated in September 2023, so it may not be aware of more recent events or developments. The OpenAI talks back to me through a USB mic and a USB speaker which I connected to the Pi. 
 
+## Challenges Faced 
+
+The third milestone was by far the most challenging for me, as coding isn’t exactly my strongest skill. I ran into several issues along the way, but with the guidance and support of my instructor, I was eventually able to complete the code. We used Python to build the project, and one of the most valuable things I learned was how to use tools that highlight errors in my code, which made it much easier to identify and fix mistakes. Despite the difficulties, I really enjoyed the process of building my project—and now, I have my own OpenAI model that can respond and talk back to me.
 
 
 # Second Milestone
