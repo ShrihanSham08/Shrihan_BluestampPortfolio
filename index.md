@@ -3,6 +3,11 @@
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
 
+
+# Project Description 
+
+This project is a custom voice-activated AI assistant that allows users to interact naturally using spoken language. Built using Python and integrated with OpenAI's language model, the assistant can listen to your voice, and then respond to your command. The only problem is that it is not a real time OpenAI model, but I will later add an OpenAI model which has realtime data. 
+
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Shrihan.S | Milpitas High School | Electrical Engineering | Rising  Senior
@@ -177,5 +182,8 @@ Add a picture for now.
 | USB Mini Speaker	 |For the voice assistant be able to speak to you.	 | $12.99 | <a href="https://www.amazon.com/HONKYOB-Speaker-Computer-Multimedia-Notebook/dp/B075M7FHM1/ref=sr_1_2_sspa?crid=FR7PI8IPJB56&dib=eyJ2IjoiMSJ9.3NQlfBzyo_1KnxlkdUQcTTLGXSh49VhdM4wLdyEtkTvuiQ9KQ8zsv5qVSEnWGFYDSNS-48pUlbZzJ1DapVApIh2lnxaEUECErGLnquRElXL-64yjtEKoMriKRRuEae0qkVKVEmLGgkPvbbpU9RB3XabVru6LzeRfXrcllOBmobmvyxHsVFBVogPaC0Fd_uyCn5bV-CWvwVaaJUL4ADBjyLyiqReq6TEdq7GPXfLOiME.AeaC7Nyowuex2bsSTYI5Z08X7TqiLE9eqBZYI3ws3sk&dib_tag=se&keywords=mini%2Busb%2Bspeaker&qid=1718321989&sprefix=mini%2Busb%2Bspeaker%2Caps%2C144&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
 
 # Other Resources/Examples
-Resources like what websites I usedm etc. 
+Google
+PiMyLifeUp
+Chatgpt
+Nazar Khan
 
